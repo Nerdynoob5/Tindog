@@ -1,0 +1,208 @@
+#title {
+   background-color: #0a0f2c; /* Darkest Navy Blue */
+   color: white;
+}
+
+h1 {
+   font-family: "Montserrat", "sans-serif";
+   font-size: 3 rem;
+   line-height: 1.5;
+   font-weight: 900;
+}
+
+.container-fluid {
+   padding: 3% 15%;
+}
+
+body {
+   font-family: Montserrat;
+}
+
+/* NAV BAR */
+
+.navbar-brand {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+
+.navbar {
+   padding-bottom: 4.5rem;
+}
+
+.nav-item {
+   padding: 0 18px;
+}
+
+.nav-link {
+   font-size: 1.2rem;
+   font-family: "Montserrat";
+   font-weight: lighter;
+}
+
+.download-button {
+   margin-top: 5%;
+   margin-right: 3%;
+   margin-bottom: 5%;
+   margin-left: 0;
+}
+
+.title-image {
+   width: 60%;
+   transform: rotate(25deg);
+}
+
+/* Features */
+
+#features {
+   color: black;
+   padding: 7% 15%;
+}
+
+.feature-box {
+   text-align: center;
+   padding: 5%;
+}
+
+h3 {
+   font-family: "Montserrat";
+   font-size: 1.25rem;
+   font-weight: 900;
+}
+
+p {
+   color: gray;
+}
+
+.icon {
+   margin-bottom: 1rem;
+   color: #1b3b6f; /* Dark Blue */
+}
+
+.icon:hover {
+   color: #0a0f2c; /* Darkest Navy Blue */
+}
+
+/* Testimonial Section */
+#testimonials {
+   text-align: center;
+   background-color: #1b3b6f; /* Dark Blue */
+   color: white;
+}
+
+h2 {
+   font-weight: "Montserrat";
+   font-size: 3rem;
+   line-height: 1.5;
+   font-weight: 900;
+}
+
+.testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+/* Press Section */
+#press {
+   background-color: #1b3b6f; /* Dark Blue */
+   text-align: center;
+   padding-bottom: 5%;
+}
+
+.press-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+.carousel-item {
+   padding: 7% 15%;
+}
+
+/* Pricing Section */
+/* Pricing Section */
+#pricing {
+   padding: 100px;
+   text-align: center;
+   background-color: #f8f9fa; /* Light Gray Background */
+}
+
+/* Pricing Cards */
+.pricing-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.pricing-card {
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+   padding: 30px;
+   width: 300px;
+   transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+   transform: scale(1.05);
+}
+
+.pricing-title {
+   font-size: 1.8rem;
+   font-weight: bold;
+   color: #0a0f2c; /* Dark Navy Blue */
+   margin-bottom: 15px;
+}
+
+.pricing-features {
+   font-size: 1.1rem;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+.pricing-button {
+   background-color: #0a0f2c; /* Dark Navy Blue */
+   color: white;
+   border: none;
+   padding: 12px 25px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background 0.3s;
+   width: 100%;
+}
+
+.pricing-button:hover {
+   background-color: #1b3b6f; /* Dark Blue */
+}
+
+
+@media (max-width: 1028px) {
+   #title {
+      text-align: center;
+   }
+   .title-image {
+      transform: rotate(0deg);
+   }
+}
+
+/* Call to Action Section */
+#cta {
+   background-color: #0a0f2c; /* Darkest Navy Blue */
+   text-align: center;
+   padding: 3% 10%;
+}
+
+.dumb {
+   font-family: "Montserrat";
+   color: aliceblue;
+   font-size: 3.5rem;
+}
+
+/* Footer */
+#footer {
+   background-color: #0a0f2c; /* Darkest Navy Blue */
+   text-align: center;
+}

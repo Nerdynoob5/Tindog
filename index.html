@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FinCodr</title> <!-- Updated Title -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!---google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/246444e377.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">FinCodr</a> <!-- Updated Brand Name -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Find Your Perfect Coding or Finance Match.</h1>
+          <p style="color: white;">Where Tech Geeks Meet Wall Street Wizards.</p>
+
+          <button type="button" class="btn btn-outline-light download-button"> <i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/trustfund.jpg" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-code fa-4x"></i>
+        <h3>Algorithmically Matched.</h3>
+        <p>Our AI ensures you find someone who loves code or finance as much as you do.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-users fa-4x"></i>
+        <h3>Smart & Ambitious Community.</h3>
+        <p>Meet like-minded developers, quants, and finance professionals.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-chart-line fa-4x"></i>
+        <h3>Designed for Techies & Investors.</h3>
+        <p>Swipe based on interests in coding, stocks, and startup ideas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials (unchanged) -->
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>Finding a co-founder and a life partner at the same time? Only on FinCodr!</h2>
+                <img class="testimonial-image" src="images/image.png" alt="profile">
+                <em>Jake, San Francisco</em>
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text">Finally, a dating app where talking about APIs and stock trends is attractive.</h2>
+                <img class="testimonial-image" src="images/lady-img.jpg" alt="profile">
+                <em>Sarah, New York</em>
+            </div>
+            <div class="carousel-item">
+                <h2>Networking, coding, and finding love? This app is everything I've been waiting for!</h2>
+                <img class="testimonial-image" src="images/person1.png" alt="profile">
+                <em>Michael, London</em>
+            </div>
+            <div class="carousel-item">
+                <h2>Matched with someone who shares my love for both Python and portfolio management.</h2>
+                <img class="testimonial-image" src="images/person4.png" alt="profile">
+                <em>Chris, Berlin</em>
+            </div>
+            <div class="carousel-item">
+                <h2>Who knew discussing blockchain could lead to a first date? FinCodr made it happen.</h2>
+                <img class="testimonial-image" src="images/person3.png" alt="profile">
+                <em>David, Singapore</em>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <h2>Smart Pricing for Smart FinTech Minds</h2>
+    <p>Flexible Plans, Maximum Returns—Built for Coders & Traders</p>
+    <h2>Choose Your Plan</h2>
+    <div class="pricing-container">
+ 
+       <div class="pricing-card">
+          <h3 class="pricing-title">Beginner Coder</h3>
+          <p class="pricing-features">✔ 5 Matches Per Day</p>
+          <p class="pricing-features">✔ 10 Messages Per Day</p>
+          <p class="pricing-features">✔ Basic Profile Visibility</p>
+          <button class="pricing-button">Sign Up</button>
+       </div>
+ 
+       <div class="pricing-card">
+          <h3 class="pricing-title">Full-Stack Trader</h3>
+          <p class="pricing-features">✔ Unlimited Matches</p>
+          <p class="pricing-features">✔ Priority Matching with Finance & Tech Experts</p>
+          <p class="pricing-features">✔ Exclusive Investment & Coding Webinars</p>
+          <button class="pricing-button">Sign Up</button>
+       </div>
+ 
+       <div class="pricing-card">
+          <h3 class="pricing-title">Quant Elite</h3>
+          <p class="pricing-features">✔ Featured Profile on Home Page</p>
+          <p class="pricing-features">✔ Access to Private Startup & Trading Groups</p>
+          <p class="pricing-features">✔ One-on-One Expert Dating Coaching</p>
+          <button class="pricing-button">Sign Up</button>
+       </div>
+ 
+    </div>
+ </section>
+ 
+ 
+
+  <!-- Call to Action -->
+  <section id="cta">
+    
+    <h3 style="color: white;">Find Your Perfect Finance or Coding Partner Today.</h3>
+    <button type="button" class="btn btn-outline-light download-button" > <i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light download-button"> <i class="fa-brands fa-google-play"></i> Download</button>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>© Copyright FinCodr</p>
+  </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
